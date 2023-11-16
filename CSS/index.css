@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 800px) {
+    .FullScreen header ul ,
+    .FullScreen header i {
+        width: 100% !important;
+        text-align: center;
+        margin: 20px;
+    }
+}
+html {
+    scroll-behavior: smooth !important;
+}
+.The_Title{
+    color:#c1b39f
+    ;
+    font-size: 105px;
+    margin-top: 50px;
+    margin-bottom: -60px;
+}
+.The_Decription{
+    color:#68c2e2  ;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.The_Third_Color{
+    color: rgb(109, 108, 108);
+}
+.FullScreen header ul{
+    direction: rtl;
+}
+.FullScreen header ul li a ,i {
+    color:#bb9b75 ;
+    transition: 1s;
+}
+i:hover , .FullScreen header ul li a:hover  {
+    color:#e8f5fa  ;
+    transform: rotateX(3600deg);
+}
+.The_Dark_BackGround{
+    background-color:#04384e;
+    display:inline-block;
+}
+article .Servises , .Portfolio , .About , .Contact , .Coping , 
+.FullScreen .FPOHeader , article .LPOHeader div  {
+    width: 100%;
+    text-align: center;
+}
+.FullScreen header ,  .FPOHeader  , article .LPOHeader  {
+    color:  #e8f5fa;
+}
+.FullScreen header i , ul , article .LPOHeader div , article .Servises div , div div ,  nav , article .Portfolio div , article 
+.About div {
+    float: left;
+}
+article .Servises nav img  , article .About div img {
+    width: 100%;
+    height: 100%;
+}
+.FullScreen header ul li a  , article .Portfolio div img{
+    transition: 1s;
+}
+
+/*Header Image*/
+.FullScreen{
+    width: 100%;
+    margin: 0;
+    height: 880px;
+    padding: 0;
+    background-image: url("../images/mediterranean-sea.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*The Nav Bar */
+.FullScreen header {
+    width: 100%;
+}
+.FullScreen header i {
+    width: 61%;
+    margin: 1%;
+}
+.FullScreen header ul{
+    width: 31%;
+    margin: 1%;
+}
+.FullScreen header ul li {
+    display: inline-block;
+    padding: 20px;
+}
+.FullScreen header ul li a {
+    text-decoration: none;
+}
+/*The Contant Of header */
+.FullScreen .FPOHeader {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    line-height: 1.7;
+    width: fit-content;
+}
+.FullScreen .FPOHeader h1{
+    font-size: xx-large;
+    color: #bb9973;
+}
+.FullScreen .FPOHeader h2{
+    font-size: x-large;
+}
+/*The last Part Of header */
+article .LPOHeader div{
+    width: 30%;
+    margin: 1%;
+    line-height: 2;
+}
+article .LPOHeader div i , b , p {
+    display:block;
+    padding: 30px;
+}
+/*The Servises Part*/
+article .Servises div{
+    width: 70%;
+}
+article .Servises nav {
+    width: 30%;
+} 
+article .Servises div div{
+    width:48%;
+    margin: 7% 1%;
+}
+/*The PorFolio Part */
+article .Portfolio div{
+    width: 27%;
+    margin: 3%;
+    background-color: #e8f5fa ;
+    border-radius: 7px;
+}
+article .Portfolio div img{
+    width: 100%;
+    height: 250px;
+}
+article .Portfolio div img:hover{
+    transform: scale3d(1.25 , 1.25 , 1.25);
+    border-radius: 20px;
+}
+/* The About Section */
+article .About div:first-of-type{
+    width: 30%;
+}
+article .About div:last-of-type{
+    width: 70%;
+}
+article .About div p{
+    width: 90%;
+    margin: 5%;
+}
+article .About div hr{
+    width:80%;
+    margin: auto;
+}
+/*The Content Part */
+article .Contact i {
+    display:inline-block;
+    margin: 10px;
+}
+/*The Coping Last Section OF page */
+article .Coping{
+    color:#009cc4;
+    padding: 5px;
+}
+
+@media (min-width: 500px) {
+    .FullScreen header i {
+        width: 12%;
+        margin: 1%;
+    }
+    .FullScreen header ul{
+        width: 81%;
+        margin: 1%;
+    }
+    article .LPOHeader div{
+        width: 90%;
+        margin: 5%;
+    }
+    article .Servises div{
+        width: 100%;
+    }
+    article .Servises div div{
+        width: 90%;
+        margin: 5%;
+    }
+    article .Servises nav {
+        width: 80%;
+        margin: 10%;
+    } 
+    article .Portfolio div{
+        width: 90%;
+        margin: 5%;
+    }
+    article .About div{
+        width: 90% !important;
+        margin: 5%;
+    }
+  }
+  @media (min-width: 750px) {
+    .FullScreen header i {
+        width: 35%;
+        margin: 1%;
+    }
+    .FullScreen header ul{
+        width: 61%;
+        margin: 1%;
+    }
+    article .LPOHeader div{
+        width: 46%;
+        margin: 2%;
+    }
+    article .Servises div{
+        width: 100%;
+    }
+    article .Servises div div{
+        width: 46%;
+        margin: 2%;
+    }
+    article .Servises nav {
+        width: 80%;
+        margin: 10%;
+    } 
+    article .Portfolio div{
+        width: 46%;
+        margin: 2%;
+    }
+    article .About div{
+        width: 90% !important;
+        margin: 5%;
+    }
+  }
+  @media (min-width: 1120px) {
+    .FullScreen header i {
+        width: 61%;
+        margin: 1%;
+    }
+    .FullScreen header ul{
+        width: 31%;
+        margin: 1%;
+    }
+    article .LPOHeader div{
+        width: 30%;
+        margin: 1%;
+    }
+    article .Servises div{
+        width: 70%;
+        margin: 0;
+    }
+    article .Servises nav {
+        width: 30%;
+        margin: 0;
+    } 
+    article .Servises div div{
+        width:48%;
+        margin: 7% 1%;
+    }
+    article .Portfolio div{
+        width: 27%;
+        margin: 3%;
+    }
+    article .About div:first-of-type{
+        width: 30% !important;
+        margin: 0;
+    }
+    article .About div:last-of-type{
+        width: 70% !important;
+        margin: 0;
+    }
+  }
